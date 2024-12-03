@@ -23,17 +23,7 @@ if submit_button:
     else:
         st.error("Please enter a valid drug name.")
 
-# with st.form("enter the name of drug which you want the  information about",clear_on_submit=False):
-#     drug_name = st.text_input("enter the name of drug which you want the  information about")
-#     prompt_structure = "the {} is used in condition of".format(drug_name)
-#     st.write("")
-#     st.write("")
-    
-#     submit_button = st.form_submit_button("let BioGPT Think")
-#     predicted_op = generator(prompt_structure, max_length=50, num_return_sequences=1, do_sample=True, top_k=50, temperature=0.5)
 
-#     if submit_button:
-#         st.write(predicted_op)
 
 
 
